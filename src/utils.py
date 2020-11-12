@@ -1,7 +1,7 @@
 
 # Desafio Uri: https://www.urionlinejudge.com.br/judge/pt/problems/view/1088
 import random
-import numpy as np
+# import numpy as np
 
 contSol = 0
 
