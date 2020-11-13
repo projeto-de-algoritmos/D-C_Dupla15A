@@ -19,9 +19,9 @@ lbl = Label(janela, text="Bem vindo ao Bolhas e Baldes",fg="black",font=('Arial'
 lbl.place(x=100,y=15)
 lbl1 = Label(janela, text="Escolha a melhor sequencia e se divirta!",fg="black",font=('Arial',13))
 lbl1.place(x=65,y=47)
-lbl2 = Label(janela, text="ex: 6 6 5 4 3 2 1", font=('Arial',11))
+lbl2 = Label(janela, text="Não é necessario indicar a quantidade de entradas.", font=('Arial',11))
 lbl2.place(x=10,y=80)
-lbl3 = Label(janela, text="ex: [ 6, 6, 5, 4, 3, 2, 1]", font=('Arial',11))
+lbl3 = Label(janela, text="Ex: 6 5 4 3 2 1      Ex: [ 6, 5, 4, 3, 2, 1]", font=('Arial',11))
 lbl3.place(x=10,y=100)
 
 
@@ -91,7 +91,8 @@ def clicked():
 
     else:
         result = []
-        result, contSol = utils.bolhaBalde(entrada[1:])        
+        result, contSol = utils.bolhaBalde(entrada)        
+        # result, contSol = utils.bolhaBalde(entrada[1:])        
 
         if (contSol%2) == 0:
             nameList = nomeJogador2
