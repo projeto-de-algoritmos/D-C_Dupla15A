@@ -59,3 +59,30 @@ def bolhaBalde(lista):
 
     return returnList, returnCont
  
+
+def mediana(entrada, indice_medio):
+    
+    #Entrada dividida em grupos de 5 [[],[]....] 
+    lista_grupos_de_5_elementos = [entrada[j:j+5] for j in range(0, len(entrada), 5)]
+    medianas = [sorted(grupo_5)[len(grupo_5)//2] for grupo_5 in lista_grupos_de_5_elementos]
+
+    if len(medianas) <= 5:
+        #Se o grupo tive 5 elementos a mediana está na metade
+        pivo = sorted(medianas)[len(medianas)//2]
+    
+    else:
+        #Se o grupo for maior que 5 então deve repetir o processo para encontrar o pivo
+        pivo = mediana(medianas, len(medianas)//2)
+
+    
+    esquerda = [j for j in entrada if j < pivo]
+    direita = [j for j in entrada if j > pivo]
+
+    k = len(esquerda)
+
+    if indice_medio < k:
+        return mediana(esquerda,indice_medio)
+    elif indice_medio > k:
+        return mediana(direita,indice_medio-k-1)
+    else: #pivo = k
+        return pivo
