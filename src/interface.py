@@ -84,7 +84,7 @@ def clicked():
         erro=erro
         alerta = 1
     
-    texto = ""
+    texto = "" 
     
     if(alerta!=0):
         texto = erro
