@@ -36,6 +36,16 @@ O projeto consiste em utilizar os conceitos dos algoritmos, de dividir e conquis
 
 ## Screenshots
 
+### Menu
+
+![menu](./img/menu.png)
+
+### Jogo Bolhas e Balde
+
+![bolhas_e_baldes](./img/bolhas_e_baldes.png)
+
+### Jogo do Tijolo
+![tijolo](./img/tijolo.png)
 
 
 ## Instalação 

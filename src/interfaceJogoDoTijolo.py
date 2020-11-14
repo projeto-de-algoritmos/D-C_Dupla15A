@@ -15,7 +15,7 @@ positionRight = int(janela.winfo_screenwidth()/2 - windowWidth/2)
 positionDown = int(janela.winfo_screenheight()/2 - windowHeight/2)
 janela.geometry("450x440+{}+{}".format(positionRight, positionDown))
 
-lbl = Label(janela, text="Bem vindo ao Jogo do tijolo",fg="black",font=('Arial',15))
+lbl = Label(janela, text="Bem vindo ao Jogo do Tijolo",fg="black",font=('Arial',15))
 lbl.place(x=100,y=15)
 lbl1 = Label(janela, text="Entre com a idade dos jogadores e decubra o capitão!",fg="black",font=('Arial',13))
 lbl1.place(x=25,y=47)
