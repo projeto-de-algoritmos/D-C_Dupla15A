@@ -58,13 +58,13 @@ O projeto consiste em utilizar os conceitos dos algoritmos, de dividir e conquis
 
 ## Uso 
 
-[Instruções em video]()
+[Instruções em video](https://www.dropbox.com/s/z64pbr47voewggu/projalgoritmos%20on%202020-11-14%2001-56.mp4?dl=0)
 
 
 ### Rodar a Aplicação
 
     1° Entre na pasta src
-    2° Execute: python3 menu.py
+    2° Execute: python3 main.py
         3° Escolha o jogo(1-Bolhas e Baldes ou 2-Jogo do Tijolo)
             Bolhas e Baldes:
                 1° Aguarde a janela carregar
