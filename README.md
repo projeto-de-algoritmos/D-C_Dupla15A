@@ -1,11 +1,8 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
-
 Temas:
  - D&C
  
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
-**Número da Lista**: 3<br>
+# Jogo_Bolhas_e_Balde-Jogo_do_Tijolo
+
 **Conteúdo da Disciplina**: D&C<br>
 
 ## Alunos
@@ -52,7 +49,11 @@ O projeto consiste em utilizar os conceitos dos algoritmos, de dividir e conquis
 **Linguagem**: Python<br>
 
 #### Requisitos
+
 - python3 instalado
+- Biblioteca tkinter instalada
+    
+        pip install tkinter
 
 
 ## Uso 
